@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title>Reviews</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    </head> 
+    
+    <body>
+        <div id="header">
+        <h1>Reviews</h1>
+    </div>
+    <div>
+     <a href="index.html">Explanation</a> <a href="Explanation.html">Walk times</a> 
+    </div> 
+
+        <p> This is were you can write a review of our services and walkers.</p>
+       <textarea id="d"> </textarea>
+     <button onclick = "buttonpress()">
+        Submit </button>
+    </body>
+</html>
+
+<script>
+function buttonpress(){
+var x =document.getElementById("d")
+var para = document.createElement("p");
+var node = document.createTextNode(x);
+para.appendChild(node);
+
+//var element = document.getElementById("div1");
+//element.appendChild(para);
+
+
+}
+
+
+</script>
